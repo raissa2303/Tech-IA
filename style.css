@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #05192A;
+    color: #333;
+}
+
+.navbar {
+    background: #04233f;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 0 5px #061f35;
+}
+
+.navbar #logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background: #06345d;
+}
+
+.posts {
+    padding: 20px 95px;
+    margin-bottom: 30px;
+}
+
+#tecblog {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    color: white;
+}
+
+#logoTec {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.post {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #061f35;
+    box-shadow: 0 0 5px #000;
+    color: #fff;
+    text-align: center;
+}
+
+.post h2 {
+    color: #81c4ff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.post p {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.post img {
+    float: top;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 50px;
+
+    object-fit: cover;
+}
+
+.post span {
+    display: block;
+    color: #888;
+    margin-top: 10px;
+    font-style: italic;
+    clear: both;
+}
+
+.footer {
+    background-color: #082946;
+    width: 100%;
+    margin: 20px auto;
+    padding: 80px;
+    background: #061f35;
+    box-shadow: 0 0 5px #000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer p {
+    padding-bottom: 20px;
+}
+
+.footer .botao {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    background: #008eb9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    max-width: 150px;
+}
+
+.footer .botao:hover {
+    background-color: white;
+    color: #000;
+}
+
+.subFooter {
+    background-color: #02111f;
+    margin: 0 0 0;
+    padding: 50px;
+    text-align: center;
+
+    width: 100%;
+}
+
+.subFooter p {
+    color: gray;
+}
+
+.servicos {
+    background: #05192A;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 160px;
+}
+
+.postsServicos {
+    justify-content: center;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    background: #05192A;
+    box-shadow: 0 0 5px #000;
+    margin-bottom: 30px;
+}
+
+.contact h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background: #061f35;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px #000;
+    border-radius: 8px;
+}
+
+.contact-box p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact img {
+    display: block;
+    margin: 20px auto;
+    width: 60px;
+}
+
+.contact h2 {
+    color: #81c4ff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.contact a {
+    color: #81c4ff;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact a:hover {
+    color: #ffffff;
+}
+
+.contact span {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contact p:last-of-type {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.servicos {
+    background: #05192A;
+    color: #ffffff;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.servicos h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.servico-bloco {
+    margin: 0 auto 40px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.servico-bloco h2 {
+    font-size: 20px;
+    color: #2aa6ff;
+    margin-bottom: 15px;
+}
+
+.servico-bloco ul,
+.servico-bloco ol {
+    margin-left: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+@media screen and (max-width: 658px) {
+
+    .navbar {
+        background: #04233f;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        box-shadow: 0 0 5px #061f35;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        transition: background 0.3s ease;
+    }
+
+}
